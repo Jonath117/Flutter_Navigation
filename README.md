@@ -1,3 +1,16 @@
-# flutter_app_navigations
+# Ejercicio de Navigation en Flutter
 
-A new Flutter project.
+
+## Estructura de carpetas
+```bash
+lib/
+├── models/
+│   └── task_model.dart
+├── screens/
+│   ├── home_screen.dart
+│   ├── task_detail_screen.dart
+│   └── review_form_screen.dart
+├── widgets/
+│   └── review_checklist.dart
+└── main.dart
+```
