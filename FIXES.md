@@ -36,7 +36,7 @@ Se usaban rutas relativas definidas en relacion a la carpeta donde estamos parad
 ### Ahora
 Se usan package imports (rutas absolutas), que parten desde la raiz del proyecto
 
-
+[Link al Commit](https://github.com/Jonath117/Flutter_Navigation/commit/21e79c80bca7105c14b9873d8f9db797e17bedad)
 ## Uso de una arquitectura
 
 ### Antes
@@ -60,3 +60,5 @@ lib/
 ├── app.dart                         
 └── main.dart                       
 ```
+
+[Link al Commit](https://github.com/Jonath117/Flutter_Navigation/commits/feat/implementacion-arquitectura-BLoC/)
