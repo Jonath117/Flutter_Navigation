@@ -4,7 +4,11 @@ class ReviewFormScreen extends StatefulWidget {
   final int taskId;
   final String taskTitle;
 
-  ReviewFormScreen({required this.taskId, required this.taskTitle});
+  const ReviewFormScreen({
+    super.key,
+    required this.taskId,
+    required this.taskTitle,
+  });
 
   @override
   _ReviewFormScreenState createState() => _ReviewFormScreenState();
