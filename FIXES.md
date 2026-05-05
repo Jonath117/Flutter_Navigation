@@ -28,3 +28,35 @@ Util para que Flutter identifique de forma unica cada widget en el arbol, lo que
 
 
 
+## Correciones sobre los import
+
+### Antes
+Se usaban rutas relativas definidas en relacion a la carpeta donde estamos parados.
+
+### Ahora
+Se usan package imports (rutas absolutas), que parten desde la raiz del proyecto
+
+
+## Uso de una arquitectura
+
+### Antes
+No habia un arquitectura como tal definida, solo se hacia una minima separacion entre entidades
+
+### Ahora
+Se aplico la arquitectura BLoC (Bussines Logic Component) separando la logica de la vista.
+
+bash
+```
+lib/
+├── models/
+│   └── task_model.dart              
+├── blocs/
+│   ├── task_bloc.dart               ← 
+│   └── review_bloc.dart             ← 
+├── screens/
+│   ├── home_screen.dart             
+│   ├── task_detail_screen.dart      
+│   └── review_form_screen.dart      
+├── app.dart                         
+└── main.dart                       
+```
