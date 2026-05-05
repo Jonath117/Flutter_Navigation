@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../models/task_model.dart';
-import 'review_form_screen.dart';
+import 'package:flutter_app_navigations/models/task_model.dart';
+import 'package:flutter_app_navigations/screens/review_form_screen.dart';
 
 class TaskDetailScreen extends StatelessWidget {
   static String path = '/task-detail';
