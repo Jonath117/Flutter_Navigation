@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../models/task_model.dart';
+import 'package:flutter_app_navigations/models/task_model.dart';
 
 abstract class TaskEvent {}
 
